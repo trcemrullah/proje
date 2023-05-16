@@ -1,0 +1,225 @@
+.header{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(14,37,100,0.5)) ,url(img/hero.jpg);
+}
+.header ul{
+    margin: 0;
+}
+.navbar-nav a{
+    color:white
+}
+
+/* SECTİON */
+
+section ul li{
+    font-size: 18px;
+}
+section form input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.dropdown{
+    padding: 5px;
+}
+.dropdown button{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    transition-duration: 0.5s;
+}
+.button button:hover{
+    background-color: darkred;
+    color: white;
+}
+.row .col-4 img{
+    width: 100%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(2,10,32);
+}
+.footer-content .row a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.footer-content .row a:hover{
+    color: gray;
+}
+.footer-content .row input{
+    background-color: rgb(2,10,32);
+}
+.footer-content .row button{
+    color: white;
+    border-color: white;
+}
+.footer-content .row button:hover{
+    color: rgb(2,10,32);
+    background-color: white;
+}
+.footer-content .row ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.sosyalmedya a{
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+/* Hizmetlerimiz */
+
+.headerhizmetlerimiz{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(14,37,100,0.5)) ,url(img/hizmetlerimizbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.sectionhizmetlerimiz h3{
+    color: #990033;
+}
+.sectionhizmetlerimiz h5{
+    color: #990033 !important;
+}
+.sectionhizmetlerimiz ul{
+    list-style: none;
+}
+.sectionhizmetlerimiz a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    transition-duration: 0.5s;
+}
+.sectionhizmetlerimiz a:hover{
+    color: #990033;
+}
+.sectionhizmetlerimiz ul li{
+    margin: 10px;
+}
+
+/* İLETİŞİM */
+
+.iletisimheader{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(14,37,100,0.5)) ,url(img/iletişimbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.iletisimsection h4{
+    color: #990033;
+}
+.iletisimsection a{
+    text-decoration: none;
+    color: black;
+}
+.iletisimsection button{
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+.iletisimsection button:hover{
+    background-color: rgba(14,37,100);
+    color: white;
+}
+.paragrafclr{
+    color: #990033;
+}
+.iletisimsection form input{
+    width: 100%;
+    padding: 5px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+/* BLOG */
+
+.blogheader{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(14,37,100,0.5)) ,url(img/blogbg.jpg);
+    background-size: cover;
+    height: 40vh
+}
+.blogsection ul li{
+    padding: 5px;
+}
+.blogsection  a{
+    text-decoration: none;
+    color:grey;
+    transition: 0.5s;
+}
+.blogsection  a:hover{
+    color: #990033;
+}
+.blogsection h6{
+    color: #990033;
+}
+
+/* KARİYER */
+
+.kariyerheader{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(14,37,100,0.5)) ,url(img/kariyerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh
+}
+
+.sectionkariyer2 h2{
+    color: #990033;
+}
+
+.sectionkariyer2 img{
+    border-radius: 50%;
+}
+.gamze{
+    color: #990033;
+}
+
+.sectionkariyer3{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(14,37,100,0.5)) ,url(img/kariyerbg2.jpg);
+    background-size: cover;
+    height: 50vh
+}
+
+.sectionkariyer4{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(0,0,0,0.5)) ,url(img/kariyerbg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh
+}
+
+.sectiontanım{
+    padding-top: 40px;
+}
+
+.sectiontanım button{
+    background-color: rgb(39,40,50);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.sectiontanım button:hover{
+    background-color: white;
+    color: black;
+}
